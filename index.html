@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primer portafolio</title>
+    <!-- CSS PROYECTO -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- FONTAWESOME -->
+    <script src="https://kit.fontawesome.com/d5b48fda4e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <!-- HEADER -->
+    <header>
+      <!-- NAV -->
+        <nav class="navbar navbar-expand-lg bg-primary">
+            <div class="container-fluid">
+              <a class="navbar-brand navbar__title text-white" href="#">Estefani Tapia</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active text-light-emphasis" href="#inicio">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light-emphasis" href="#habilidades">Mis Habilidades</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light-emphasis" href="#proyectos">Proyectos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light-emphasis" href="#contacto">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <!-- MAIN -->
+    <main>
+      <!-- DESCRIPCION -->
+      <section id="inicio">
+        <div class="card mb-3 col-12">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="assets/img/woman.png" class="img-fluid rounded-start" alt="woman">
+            </div>
+            <div class="col-md-8 d-flex align-items-center">
+              <div class="card-body">
+                <h4 class="card-title pb-2 titles">Soy Estefani Tapia</h4>
+                <h5 class="card-title pb-3 titles">Desarrolladora FrontEnd</h5>
+                <p class="card-text pb-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta blanditiis eligendi ipsa quos reiciendis! Excepturi consequatur dolorem laudantium eaque corrupti, voluptatum beatae suscipit in, sed natus ipsa accusantium unde ipsum.</p>
+                <div class="row">
+                  <button type="button" class="btn btn-primary col-md-2 offset-md-4">Contactame</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- HABILIDADES -->
+      <section class="container" id="habilidades">
+        <h2 class="text-center py-3">Mis Habilidades</h2>
+        <div class="row">          
+          <div class="col-6 col-md-6">
+            <img src="https://devicon-website.vercel.app/api/html5/original.svg" alt="logo-html" class="logo my-1" /><span>HTML</span>
+            <img src="https://devicon-website.vercel.app/api/css3/original.svg" alt="logo-css" class="logo my-1" /><span>CSS</span>
+            <img src="https://devicon-website.vercel.app/api/sass/original.svg" alt="logo-sass" class="logo my-1" /><span>Sass</span>
+            <img src="https://devicon-website.vercel.app/api/bootstrap/original.svg" alt="logo-boostrap" class="logo my-1" /><span>Bootstrap</span>
+          </div>
+          <div class="col-6 col-md-6">
+            <img src="https://devicon-website.vercel.app/api/git/original.svg" alt="logo-git" class="logo my-1" /><span>Git</span>
+            <img src="https://devicon-website.vercel.app/api/github/original.svg" alt="logo-git-hub" class="logo my-1" /><span>Github</span>
+            <img src="https://devicon-website.vercel.app/api/javascript/original.svg" alt="logo-javascript" class="logo my-1" /><span>JS</span>
+            <img src="https://devicon-website.vercel.app/api/vuejs/original.svg" alt="logo-vuejs" class="logo my-1" /><span>Vuejs</span>
+          </div>
+        </div>
+      </section>
+      <!-- MIS PROYECTOS -->
+      <section class="container my-4" id="proyectos">
+        <div class="row text-center">
+          <h2 class="text-center my-5">Mis Proyectos</h2>
+          <div class="col-12 col-md-3 my-2">
+            <img src="./assets/img/meetcoffee.png" class="img-proyecto" alt="img-proyecto"/>
+            <p class="pt-2">Meet & Coffee</p>
+          </div>
+          <div class="col-12 col-md-3 my-2">
+            <img src="./assets/img/meetcoffee.png" class="img-proyecto" alt="img-proyecto"/>
+            <p class="pt-2">Meet & Coffee</p>
+          </div>
+          <div class="col-12 my-2 col-md-3">
+            <img src="./assets/img/meetcoffee.png" class="img-proyecto" alt="img-proyecto"/>
+            <p class="pt-2">Meet & Coffee</p>
+          </div>
+          <div class="col-12 my-2 col-md-3">
+            <img src="./assets/img/meetcoffee.png" class="img-proyecto" alt="img-proyecto"/>
+            <p class="pt-2">Meet & Coffee</p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- FOOTER -->
+    <footer class="container">
+      <div class="row" id="contacto">
+        <h2 class="text-center p-4">Contactame</h2>
+        <div class="col-md-6 p-3">
+          <!-- FORM -->
+          <form class="row d-flex g-3">
+            <div class="col-6">
+              <input type="text" class="form-control" placeholder="Nombre" aria-label="First name" />
+            </div>
+            <div class="col-6">
+              <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name" />
+            </div>
+            <div class="col-12">
+              <input type="text" class="form-control" placeholder="Tu email" aria-label="Last name" />
+              <input type="text" class="form-control my-4 h-75" placeholder="Escribe un mensaje " aria-label="Last name" />
+            </div>
+            <div class="col-12 my-5">
+              <button type="submit" class="btn btn-primary">Enviar</button>
+            </div>
+          </form>
+        </div>
+        <!-- CONTACTO -->
+        <section class="col-md-6 p-3">
+          <div class="d-flex flex-column">
+            <!-- Teléfono -->
+            <div class="pb-3">
+              <i class="fa-solid fa-phone pe-1"></i> <a href="">+56999887766</a>
+            </div>
+            <!-- Email -->
+            <div class="pb-3">
+              <i class="fa-solid fa-envelope pe-1"></i>
+              <a href="">email@gmail.com</a>
+            </div>
+            <!-- Linkedin -->
+            <div class="pb-3">
+              <i class="fa-brands fa-linkedin pe-1"></i>
+              <a href="#">Linkedin</a>
+            </div>
+            <!-- Github -->
+            <div class="pb-3">
+              <i class="fa-brands fa-github pe-1"></i>
+              <a href="#">Github</a>
+            </div>
+            <!-- Instagram -->
+            <div class="pb-3">
+              <i class="fa-brands fa-instagram pe-1"></i>
+              <a href="#">Instagram</a>
+            </div>
+          </div>
+        </section>
+      </div>
+    </footer>
+</body>
+</html>
